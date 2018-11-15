@@ -26,7 +26,6 @@ SECRET_KEY = '(ihbl5j5e_(78v1ph@t^d^!h0&v(4s$6o+=rg^p81gq==d_h+j'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'localhost',
 ]
 
 
@@ -39,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    'polls.apps.PollsConfig',
 ]
 
 MIDDLEWARE = [
